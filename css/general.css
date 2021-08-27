@@ -35,7 +35,9 @@ strong {
 }
 
 h1 {
+  
   font-weight: bold;
+  color: rgb(153, 20, 172)
   font-style: normal;
   text-transform: uppercase;
   text-align: center;
