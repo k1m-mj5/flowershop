@@ -61,6 +61,7 @@ ol {
 ul > li {
   list-style: url("../images/blue_dot1.jpg") circle outside;
 }
+/* changed */
 
 .gallery {
   height: 150px;
