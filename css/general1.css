@@ -1,0 +1,86 @@
+.gallery1 {
+  height: 150px;
+  width: 150px;
+
+  margin: 0px;
+  padding: 2px;
+  border: 20px solid orange;
+  border-style: dotted;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+}
+
+#pic11 {
+  background-color: blue;
+}
+
+#pic12 {
+  background-color: green;
+}
+
+#pic13 {
+  background-color: red;
+}
+
+#pic14 {
+  background-color: brown;
+}
+
+.gallery2 {
+  height: 150px;
+  width: 150px;
+
+  margin: 0px;
+  margin-top: 20px;
+  padding: 2px;
+  border: 20px solid yellow;
+  border-style: groove;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+}
+
+#pic21 {
+  background-color: blue;
+}
+
+#pic22 {
+  background-color: red;
+}
+
+#pic23 {
+  margin-left: 150px;
+  background-color: brown;
+}
+
+#pic24 {
+  background-color: green;
+}
+
+.gallery3 {
+  height: 150px;
+  width: 150px;
+
+  margin: 0px;
+  margin-top: 20px;
+
+  border: 30px solid white;
+  border-style: dashed;
+}
+
+#pic31 {
+  background-color: blue;
+}
+
+#pic32 {
+  background-color: green;
+}
+
+#pic33 {
+  background-color: red;
+}
+
+#pic34 {
+  background-color: brown;
+}

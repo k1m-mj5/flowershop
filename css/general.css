@@ -1,0 +1,158 @@
+a {
+  color: darkgreen;
+  text-decoration: none;
+}
+.navlink:hover {
+  color: pink;
+}
+
+/* .navlink:visited {
+  color: yellow;
+} */
+
+div {
+  color: goldenrod;
+}
+
+#current_page:hover {
+  color: blue;
+}
+
+#firstname:active {
+  background-color: yellow;
+}
+
+p span {
+  color: blueviolet;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+  font-size: 40px;
+}
+
+h1 {
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 1px 1px 2px yellow;
+  /* letter-spacing: -5px; */
+  /* word-spacing: -10px; */
+}
+
+h2 {
+  text-indent: 0px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+
+ul > li {
+  list-style: url("../images/blue_dot.png") circle outside;
+}
+
+.gallery {
+  height: 150px;
+  width: 150px;
+  background-color: cyan;
+  margin: 20px;
+  padding: 20px;
+  border: 7px solid brown;
+  /* border-style: dotted; */
+  /* border-radius: 60px; */
+  box-shadow: 5px 5px 0px yellow;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+}
+
+#pic1 {
+  background-image: url("../images/Orchid.jpg");
+  background: pink url("../images/Orchid.jpg") no-repeat 0 0;
+  background-size: contain;
+  /* background-position: 0 500px; */
+  /* background-attachment: local; */
+  /* z-index: 2;
+  left: 200px;
+  top: 50px; */
+}
+
+#pic2 {
+  background-image: url("../images/cherry-blossom-branch.jpg");
+  background: pink url("../images/cherry-blossom-branch.jpg") no-repeat 0 0;
+  background-size: contain;
+}
+
+#pic3 {
+  background-image: url("../images/daiseies.jpg");
+  background: pink url("../images/daiseies.jpg") no-repeat 0 0;
+  background-size: contain;
+}
+
+#pic4 {
+  background-image: url("../images/lisianthus-900x600.jpg");
+  background: pink url("../images/lisianthus-900x600.jpg") no-repeat 0 0;
+  background-size: contain;
+}
+
+#pic5 {
+  background-image: url("../images/Roses.jpg");
+  background: pink url("../images/Roses.jpg") no-repeat 0 0;
+  background-size: contain;
+}
+
+#pic6 {
+  background-image: url("../images/tulips.jpg");
+  background: pink url("../images/tulips.jpg") no-repeat 0 0;
+  background-size: contain;
+}
+
+#pic7 {
+  background-image: url("../images/helianthus-yellow-flower-pixabay_11863.jpg");
+  background: pink url("../images/helianthus-yellow-flower-pixabay_11863.jpg")
+    no-repeat 0 0;
+  background-size: contain;
+}
+
+#pic8 {
+  background-image: url("../images/thinkstockphotos-457382491.jpg");
+  background: pink url("../images/thinkstockphotos-457382491.jpg") no-repeat 0 0;
+  background-size: contain;
+}
+
+#container {
+  width: 85%;
+  margin: auto;
+}
+
+table {
+  empty-cells: hide;
+  /* border-spacing: 10px; */
+  border-collapse: collapse;
+}
+
+#orchid_about_us {
+  float: left;
+}
+
+#about_us_paragraph {
+  clear: both;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: brown;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Star Roses</h1>
+            <h2>Contact Us</h2>
+            <nav>
+                <a class="navlink" href="index.html">Home</a>
+                <a class="navlink" href="products.html">Products</a>
+                <a class="navlink" href="about_us.html">About Us</a>
+                <a class="navlink" id="current_page" href="contact_us.html">Contact Us</a>
+            </nav>
+        </header>
+        <form>
+            <label for="firstname">Firstname: </label>
+            <input type="text" id="firstname" name="firstname" placeholder="Firstname">
+            <br>
+            <label for="lastname">Lastname: </label>
+            <input type="text" id="lastname" name="lastname" placeholder="Lastname">
+            <br>
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password" placeholder="Password">
+            <br>
+            <label for="birthday">Birthday: </label>
+            <input type="date" id="birthday" name="birthday">
+            <br>
+            <label for="age">Age: </label>
+            <input type="number" id="age" name="age" min="0" max="140">
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message: </label>
+            <textarea id"message" name="message">Default message</textarea>
+            <br>
+            <label for="region">Region: </label>
+            <br>
+            <input type="radio" id="Okinawa" name="region">
+            <label for="Okinawa">Okinawa</label>
+            <br>
+            <input type="radio" id="Kyushu" name="region">
+            <label for="Kyushu">Kyushu</label>
+            <br>
+            <input type="radio" id="Honsu" name="region">
+            <label for="Honsu">Honsu</label>
+            <br>
+            <input type="radio" id="Shikoku" name="region">
+            <label for="Shikoku">Shikoku</label>
+            <br>
+            <label for="countries_visited">Countries Visited:</label>
+            <br>
+            <input type="checkbox" id="afghanistan" name="afghanistan">
+            <label for="afghanistan">Afghanistan</label>
+            <input type="checkbox" id="belize" name="belize">
+            <label for="belize">Belize</label>
+            <input type="checkbox" id="canada" name="canada">
+            <label for="canada">Canada</label>
+            <input type="checkbox" id="djibouti" name="djibouti">
+            <label for="djibouti">Djibouti</label>
+            <input type="checkbox" id="egypt" name="egypt">
+            <label for="Egypt">egypt</label>
+            <input type="checkbox" id="finland" name="finland">
+            <label for="finland">Finland</label>
+            <input type="checkbox" id="italy" name="itlay">
+            <label for="italy">Italy</label>
+            <input type="checkbox" id="ghana" name="ghana">
+            <label for="ghana">Ghana</label>
+            <br>
+            <label for="favorite_color">Favorite Color:</label>
+            <select id="favorite_color" name="favorite_color">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="yellow">Yellow</option>
+                <option value="green">Green</option>
+                <option value="black">Black</option>
+            </select>
+            <br>
+            <label for="favorite_cuisine">Favorite Cuisines: </label>
+            <select id="favorite_cuisine" name="favorite_cuisine" multiple>
+                <option value="japanese">Japanese</option>
+                <option value="french">French</option>
+                <option value="mexican">Mexican</option>
+                <option value="korean">Korean</option>
+                <option value="chinese">Chinese</option>
+            </select>
+            <br>
+            <label for="file_upload">File: </label>
+            <input type="file" id="file_upload" name="file_upload">
+            <br>
+            <input type="button" value="Click Me">
+            <button type="submit">Submit</button>
+            <input type="image" src="images/blue_dot.png" alt="Photo of a blue dot button">
+        </form>
+        <footer>
+            Flowershop Company 2021
+        </footer>
+    </div>
+    
+</body>
+
+</html>
